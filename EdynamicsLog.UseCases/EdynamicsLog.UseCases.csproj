@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EdynamicsLog.Entities\EdynamicsLog.Entities.csproj" />
+    <ProjectReference Include="..\EdynamicsLog.RepositoryEFCore\EdynamicsLog.RepositoryEFCore.csproj" />
+    <ProjectReference Include="..\EdynamicsLog.UseCasesPorts\EdynamicsLog.UseCasesPorts.csproj" />
+  </ItemGroup>
+
+</Project>
