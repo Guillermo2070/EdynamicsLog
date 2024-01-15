@@ -7,8 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.24.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\EdynamicsLog.Entities\EdynamicsLog.Entities.csproj" />
-    <ProjectReference Include="..\EdynamicsLog.RepositoryEFCore\EdynamicsLog.RepositoryEFCore.csproj" />
     <ProjectReference Include="..\EdynamicsLog.UseCasesPorts\EdynamicsLog.UseCasesPorts.csproj" />
   </ItemGroup>
 
