@@ -29,7 +29,6 @@ namespace EdynamicsLog.UseCases.OrganizationCases
 
             await UnitOfWork.SaveChanges();
 
-
             await OutputPort.Handle(
               new OrganizationDTO
               {
